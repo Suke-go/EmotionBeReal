@@ -1,4 +1,4 @@
-"Time[s]	",Voltage[V],,
+"Time[s]",Voltage[V],,
 0.001,0.01,,Rate:1kHz
 0.002,0,,
 0.003,-0.01,,

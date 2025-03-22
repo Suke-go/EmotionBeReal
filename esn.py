@@ -300,9 +300,9 @@ def main():
     """Main function for EMG-based gesture recognition"""
     # 1. Load data
     print("Loading data...")
-    grasp_data = pd.read_csv('grasp.csv')
-    pinch_data = pd.read_csv('pinch.csv')
-    lookup_data = pd.read_csv('lookup.csv')
+    grasp_data = pd.read_csv('EMG_Hand/lookup.csv')
+    pinch_data = pd.read_csv('EMG_Hand/lookup.csv')
+    lookup_data = pd.read_csv('EMG_Hand/lookup.csv')
     
     # 2. Preprocess EMG signals
     print("Preprocessing EMG signals...")
